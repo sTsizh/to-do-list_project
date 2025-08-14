@@ -11,7 +11,7 @@
     }
 
     .sidebar {
-        width: 250px;
+        width: 300px;
         background: #2c3e50;
         color: white;
         padding: 20px;
@@ -37,7 +37,7 @@
         cursor: pointer; 
         position: absolute;
         bottom: 20px;
-        left: 65%;
+        left: 70%;
     }
 
     .list-input {
@@ -69,10 +69,9 @@
     }
 
     .content {
-        flex: 1;
+        flex: content;
         padding: 30px;
         background: #ecf0f1;
-        overflow-y: auto;
     }
 
     .content h2 {
@@ -81,12 +80,13 @@
 
     .task-input {
         display: flex;
-        margin-bottom: 15px;
+        width: 70%;
+        margin-bottom: 30px;
     }
 
     .task-input input {
-        flex:1;
-        padding:8px;
+        flex: 1;
+        padding: 12px;
     }
 
     #addTaskBtn {
@@ -96,20 +96,22 @@
     }
 
     .tasks {
+        width: 60%;
         list-style: none;
         background: white;
-        padding:0;
+        padding:10;
     }
 
     .tasks li {
         background: white;
-        padding: 10px;
+        padding: 12px;
         margin-bottom:8px;
         border-radius:4px;
         display: flex;
-        align-items: center;
+        align-items:center;
         cursor: pointer;
         position: relative;
+        right: 50px;
     }
 
      .tasks li::before {
@@ -119,7 +121,7 @@
         border-radius: 50%;
         background-image: url(images/unchecked.png);
         background-size: cover;
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
     .task-text {
